@@ -1,5 +1,5 @@
-import { Download, Calendar, MapPin, Users } from "lucide-react";
-import tournamentLogo from "@/assets/tournament-logo.png";
+import { Download, Calendar, MapPin, Users, Trophy, Clock } from "lucide-react";
+import logoCopa from "@/assets/logo-copa.png";
 
 const TournamentSection = () => {
   return (
@@ -7,22 +7,23 @@ const TournamentSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <img
-            src={tournamentLogo}
-            alt="Logo do Torneio"
-            className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-8 animate-pulse-glow rounded-full"
+            src={logoCopa}
+            alt="Logo Copa Social de Veteranos"
+            className="w-32 h-auto md:w-40 mx-auto mb-8 animate-pulse-glow"
           />
           <h2 className="font-display text-3xl md:text-5xl font-bold uppercase text-foreground mb-4">
-            Copa <span className="text-gradient-gold">Comunitária 2026</span>
+            Copa Social de <span className="text-gradient-orange">Veteranos</span>
           </h2>
           <p className="font-body text-lg text-muted-foreground mb-10">
-            O maior torneio de futebol da nossa comunidade está de volta! Reúna seu time e venha fazer parte desta história.
+            8 times convidados, com 12 jogadores cada, sendo obrigatório pelo menos 4 acima de 50 anos em campo. Premiação para todos os times!
           </p>
 
-          <div className="grid sm:grid-cols-3 gap-6 mb-12">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
             {[
-              { icon: Calendar, title: "Data", info: "15 a 30 de Março de 2026" },
-              { icon: MapPin, title: "Local", info: "Campo da Associação Comunitária" },
-              { icon: Users, title: "Vagas", info: "16 equipes — Inscrições abertas" },
+              { icon: Calendar, title: "Data", info: "Domingo, 29/03/2026" },
+              { icon: Clock, title: "Horário", info: "8h às 17h" },
+              { icon: Users, title: "Times", info: "8 equipes convidadas" },
+              { icon: Trophy, title: "Premiação", info: "Para todos os times" },
             ].map((item) => (
               <div
                 key={item.title}
@@ -37,7 +38,7 @@ const TournamentSection = () => {
 
           <a
             href="#"
-            className="inline-flex items-center gap-3 bg-gradient-gold text-accent-foreground font-display text-lg font-semibold uppercase tracking-wide px-8 py-4 rounded-lg shadow-glow-gold hover:scale-105 transition-transform duration-200"
+            className="inline-flex items-center gap-3 bg-gradient-orange text-accent-foreground font-display text-lg font-semibold uppercase tracking-wide px-8 py-4 rounded-lg shadow-glow-orange hover:scale-105 transition-transform duration-200"
           >
             <Download className="w-5 h-5" />
             Baixar Regulamento

@@ -1,5 +1,5 @@
-import heroBg from "@/assets/hero-bg.jpg";
-import tournamentLogo from "@/assets/tournament-logo.png";
+import heroBg from "@/assets/bg-fundo.png";
+import logoCopa from "@/assets/logo-copa.png";
 
 const HeroSection = () => {
   return (
@@ -13,21 +13,19 @@ const HeroSection = () => {
       
       <div className="relative z-10 text-center px-4 animate-fade-in-up">
         <img
-          src={tournamentLogo}
-          alt="Logo do Torneio"
-          className="w-36 h-36 md:w-48 md:h-48 mx-auto mb-8 drop-shadow-2xl"
+          src={logoCopa}
+          alt="Logo Copa Social de Veteranos"
+          className="w-56 h-auto md:w-72 lg:w-80 mx-auto mb-8 drop-shadow-2xl"
         />
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tight mb-4">
-          <span className="text-gradient-gold">Copa</span>{" "}
-          <span className="text-foreground">Comunitária</span>
-        </h1>
-        <p className="font-display text-2xl md:text-3xl font-medium text-foreground/80 uppercase tracking-widest mb-6">
-          Torneio de Futebol 2026
+        <p className="font-display text-xl md:text-2xl font-medium text-foreground/90 uppercase tracking-widest mb-2">
+          Associação Fênix
         </p>
-        <div className="inline-flex items-center gap-3 bg-muted/60 backdrop-blur-sm border border-border rounded-lg px-6 py-3">
-          <span className="text-secondary font-display text-xl font-semibold">15 a 30 de Março</span>
-          <span className="text-muted-foreground">•</span>
-          <span className="text-muted-foreground font-body">Campo da Associação</span>
+        <div className="w-20 h-1 bg-gradient-orange mx-auto mb-6 rounded-full" />
+        <p className="font-display text-2xl md:text-3xl font-semibold text-foreground uppercase tracking-wide mb-8">
+          Domingo • 29/03/2026 • 8h às 17h
+        </p>
+        <div className="inline-flex items-center gap-3 bg-primary/20 backdrop-blur-sm border border-primary/30 rounded-lg px-6 py-3">
+          <span className="text-primary font-display text-lg font-semibold">🏆 Premiação para todos os times</span>
         </div>
       </div>
 
