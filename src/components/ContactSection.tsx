@@ -1,8 +1,8 @@
-import { Instagram, Facebook, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section id="contato" className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4 text-center">
         <h2 className="font-display text-3xl md:text-5xl font-bold uppercase text-foreground mb-4">
           Dúvidas ou <span className="text-gradient-orange">Informações</span>
@@ -13,7 +13,7 @@ const ContactSection = () => {
           Entre em contato para dúvidas, inscrições e mais informações sobre a Copa Social de Veteranos.
         </p>
 
-        <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 mb-12">
+        <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6">
           {[
             { icon: Phone, label: "44 99861-0216 (Tião)", href: "tel:+5544998610216" },
             { icon: Phone, label: "44 99893-8574 (Fátima — Pres. Ass. Fênix)", href: "tel:+5544998938574" },
@@ -25,22 +25,6 @@ const ContactSection = () => {
             >
               <contact.icon className="w-6 h-6 text-primary" />
               <span className="font-body text-foreground font-medium">{contact.label}</span>
-            </a>
-          ))}
-        </div>
-
-        <div className="flex flex-wrap justify-center gap-6">
-          {[
-            { icon: Instagram, label: "@associacaofenix", href: "#" },
-            { icon: Facebook, label: "Associação Fênix", href: "#" },
-          ].map((social) => (
-            <a
-              key={social.label}
-              href={social.href}
-              className="flex items-center gap-3 bg-card border border-border rounded-lg px-6 py-4 hover:border-primary hover:shadow-glow-orange transition-all duration-300"
-            >
-              <social.icon className="w-6 h-6 text-primary" />
-              <span className="font-body text-foreground font-medium">{social.label}</span>
             </a>
           ))}
         </div>

@@ -3,7 +3,7 @@ import logoCopa from "@/assets/logo-copa.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       <img
         src={heroBg}
         alt="Campo de futebol iluminado"
@@ -17,9 +17,6 @@ const HeroSection = () => {
           alt="Logo Copa Social de Veteranos"
           className="w-56 h-auto md:w-72 lg:w-80 mx-auto mb-8 drop-shadow-2xl"
         />
-        <p className="font-display text-xl md:text-2xl font-medium text-foreground/90 uppercase tracking-widest mb-2">
-          Associação Fênix
-        </p>
         <div className="w-20 h-1 bg-gradient-orange mx-auto mb-6 rounded-full" />
         <p className="font-display text-2xl md:text-3xl font-semibold text-foreground uppercase tracking-wide mb-8">
           Domingo • 29/03/2026 • 8h às 17h

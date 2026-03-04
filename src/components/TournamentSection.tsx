@@ -3,7 +3,7 @@ import logoCopa from "@/assets/logo-copa.png";
 
 const TournamentSection = () => {
   return (
-    <section className="py-20 md:py-28 bg-card">
+    <section id="torneio" className="py-20 md:py-28 bg-card">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <img
