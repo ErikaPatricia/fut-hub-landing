@@ -2,10 +2,10 @@ import logoItaipu from "@/assets/logo-itaipu.png";
 
 const SponsorBanner = () => {
   return (
-    <section className="py-12 bg-background">
+    <section className="py-12 bg-white">
       <div className="container mx-auto px-4">
-        <div className="bg-card border border-border rounded-xl p-8 md:p-10 text-center">
-          <p className="font-display text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">
+        <div className="bg-white border border-neutral-200 rounded-xl p-8 md:p-10 text-center">
+          <p className="font-display text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">
             Patrocínio
           </p>
           <img
