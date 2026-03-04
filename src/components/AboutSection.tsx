@@ -1,8 +1,8 @@
-import logoCopa from "@/assets/logo-copa.png";
+import logoFenix from "@/assets/logo-fenix.png";
 
 const AboutSection = () => {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section id="associacao" className="py-20 md:py-28 bg-card">
       <div className="container mx-auto px-4">
         <div className="flex items-center gap-4 mb-12">
           <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-3xl">🔥</div>
@@ -28,7 +28,7 @@ const AboutSection = () => {
                 { value: "500+", label: "Idosos atendidos" },
                 { value: "30+", label: "Eventos realizados" },
               ].map((stat) => (
-                <div key={stat.label} className="text-center bg-card border border-border rounded-lg p-4">
+                <div key={stat.label} className="text-center bg-muted/50 border border-border rounded-lg p-4">
                   <span className="font-display text-2xl md:text-3xl font-bold text-primary block">{stat.value}</span>
                   <span className="font-body text-sm text-muted-foreground">{stat.label}</span>
                 </div>
@@ -38,8 +38,8 @@ const AboutSection = () => {
 
           <div className="flex items-center justify-center">
             <img
-              src={logoCopa}
-              alt="Copa Social de Veteranos"
+              src={logoFenix}
+              alt="Associação Fênix"
               className="w-64 md:w-80 h-auto drop-shadow-2xl"
             />
           </div>
