@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logoFenix from "@/assets/logo-fenix.png";
+import logoBranca from "@/assets/logo-branca.png";
 
 const navItems = [
   { label: "Início", href: "#inicio" },
@@ -14,9 +14,9 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
-      <div className="container mx-auto px-4 flex items-center justify-between h-16">
+      <div className="container mx-auto px-6 md:px-10 flex items-center justify-between h-16">
         <a href="#inicio">
-          <img src={logoFenix} alt="Associação Fênix" className="h-10 w-auto" />
+          <img src={logoBranca} alt="Associação Fênix" className="h-10 w-auto" />
         </a>
 
         {/* Desktop */}
@@ -25,7 +25,7 @@ const Navbar = () => {
             <li key={item.href}>
               <a
                 href={item.href}
-                className="font-display text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors"
+                className="font-display text-base uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors"
               >
                 {item.label}
               </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <a
                   href={item.href}
                   onClick={() => setOpen(false)}
-                  className="font-display text-sm uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors"
+                  className="font-display text-base uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors"
                 >
                   {item.label}
                 </a>

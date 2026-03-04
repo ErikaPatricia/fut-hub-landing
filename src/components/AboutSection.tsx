@@ -1,4 +1,4 @@
-import logoFenix from "@/assets/logo-fenix.png";
+import logoBranca from "@/assets/logo-branca.png";
 
 const AboutSection = () => {
   return (
@@ -38,7 +38,7 @@ const AboutSection = () => {
 
           <div className="flex items-center justify-center">
             <img
-              src={logoFenix}
+              src={logoBranca}
               alt="Associação Fênix"
               className="w-64 md:w-80 h-auto drop-shadow-2xl"
             />
