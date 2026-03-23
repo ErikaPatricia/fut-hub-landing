@@ -36,7 +36,9 @@ const TournamentSection = () => {
           </div>
 
           <a
-            href="#"
+            href="/REGULAMENTO_TORNEIO_VETERANOS.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-gradient-orange text-accent-foreground font-display text-lg font-semibold uppercase tracking-wide px-8 py-4 rounded-lg shadow-glow-orange hover:scale-105 transition-transform duration-200"
           >
             <Download className="w-5 h-5" />
