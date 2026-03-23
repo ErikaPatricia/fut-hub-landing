@@ -15,7 +15,9 @@ const HeroSection = () => {
         />
         <div className="w-20 h-1 bg-gradient-orange mx-auto mb-6 rounded-full" />
         <p className="font-display text-2xl md:text-3xl font-semibold text-foreground uppercase tracking-wide mb-8">
-          Domingo • 29/03/2026 • 8h às 17h Local: AABB (Associação Atlética Banco do Brasil)
+          Domingo • 29/03/2026 • 8h às 17h
+          <br>
+          Local: AABB (Associação Atlética Banco do Brasil)
         </p>
         <div className="inline-flex items-center gap-3 bg-primary/20 backdrop-blur-sm border border-primary/30 rounded-lg px-6 py-3">
           <span className="text-primary font-display text-lg font-semibold">🏆 Premiação para todos os times</span>
