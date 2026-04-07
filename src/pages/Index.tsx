@@ -1,8 +1,9 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
 import SponsorBanner from "@/components/SponsorBanner";
+import AboutSection from "@/components/AboutSection";
 import TournamentSection from "@/components/TournamentSection";
+import BailaoSection from "@/components/BailaoSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -14,6 +15,7 @@ const Index = () => {
       <SponsorBanner />
       <AboutSection />
       <TournamentSection />
+      <BailaoSection />
       <ContactSection />
       <Footer />
     </div>

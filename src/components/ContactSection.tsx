@@ -2,7 +2,7 @@ import { Phone } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contato" className="py-20 md:py-28 bg-background">
+    <section id="contato" className="py-20 md:py-28 bg-card">
       <div className="container mx-auto px-4 text-center">
         <h2 className="font-display text-3xl md:text-5xl font-bold uppercase text-foreground mb-4">
           Dúvidas ou <span className="text-gradient-orange">Informações</span>
@@ -10,7 +10,7 @@ const ContactSection = () => {
         <div className="w-20 h-1 bg-gradient-orange mx-auto mb-10 rounded-full" />
 
         <p className="font-body text-lg text-muted-foreground mb-12 max-w-xl mx-auto">
-          Entre em contato para dúvidas, inscrições e mais informações sobre a Copa Social de Veteranos.
+          Entre em contato para dúvidas, sugestões, interesse ou mais informações sobre nossos eventos.
         </p>
 
         <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6">
@@ -21,7 +21,7 @@ const ContactSection = () => {
             <a
               key={contact.label}
               href={contact.href}
-              className="flex items-center gap-3 bg-card border border-border rounded-lg px-6 py-4 hover:border-primary hover:shadow-glow-orange transition-all duration-300"
+              className="flex items-center gap-3 bg-muted/50 border border-border rounded-lg px-6 py-4 hover:border-primary hover:shadow-glow-orange transition-all duration-300"
             >
               <contact.icon className="w-6 h-6 text-primary" />
               <span className="font-body text-foreground font-medium">{contact.label}</span>
