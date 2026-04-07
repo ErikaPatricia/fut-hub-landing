@@ -6,6 +6,7 @@ const navItems = [
   { label: "Início", href: "#inicio" },
   { label: "Associação", href: "#associacao" },
   { label: "Torneio", href: "#torneio" },
+  { label: "Bailão", href: "#bailao" },
   { label: "Contato", href: "#contato" },
 ];
 
