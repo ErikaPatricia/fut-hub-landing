@@ -7,7 +7,7 @@ const HeroSection = () => {
       <img src={heroImg} alt="Entrega de medalhas na Copa Social de Veteranos" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-hero" />
 
-      <div className="relative z-10 text-center px-4 animate-fade-in-up">
+      <div className="relative z-10 text-center px-4 animate-fade-in-up mt-32 md:mt-40">
         <img
           src={logoCopa}
           alt="Logo Copa Social de Veteranos"
