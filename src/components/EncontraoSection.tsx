@@ -21,15 +21,15 @@ const EncontraoSection = () => {
 
       <div className="relative container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-12">
+          <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-muted-foreground mb-6 mt-4">
+            Itaipu Binacional apresenta
+          </p>
           <img
             src={logoEncontrao}
             alt="Encontrão Cultural da Melhor Idade"
-            className="w-full max-w-md md:max-w-lg mx-auto mb-6 drop-shadow-xl"
+            className="w-full max-w-md md:max-w-lg mx-auto py-8 md:py-10 drop-shadow-xl"
           />
-          <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-muted-foreground mb-4">
-            Itaipu Binacional apresenta
-          </p>
-          <h2 className="font-display text-3xl md:text-5xl font-bold uppercase text-foreground mb-6">
+          <h2 className="font-display text-3xl md:text-5xl font-bold uppercase text-foreground mb-6 mt-4">
             Venha <span className="text-gradient-orange">celebrar</span> com a gente
           </h2>
           <p className="font-body text-lg text-muted-foreground leading-relaxed mb-6">
