@@ -5,6 +5,7 @@ import logoBranca from "@/assets/logo-branca.png";
 const navItems = [
   { label: "Início", href: "#inicio" },
   { label: "Associação", href: "#associacao" },
+  { label: "Encontrão", href: "#encontrao" },
   { label: "Torneio", href: "#torneio" },
   { label: "Bailão", href: "#bailao" },
   { label: "Contato", href: "#contato" },

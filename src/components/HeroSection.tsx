@@ -1,26 +1,32 @@
-import heroImg from "@/assets/hero-medalha.jpg";
-import logoCopa from "@/assets/logo-copa.png";
+import fundo from "@/assets/fundo-encontrao.jpg";
+import logoEncontrao from "@/assets/logo-encontrao.png";
 
 const HeroSection = () => {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      <img src={heroImg} alt="Entrega de medalhas na Copa Social de Veteranos" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-gradient-hero" />
+    <section id="inicio" className="relative min-h-screen flex flex-col items-center overflow-hidden pt-16">
+      <img
+        src={fundo}
+        alt="Encontrão Cultural da Melhor Idade"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-transparent to-background/40" />
 
-      <div className="relative z-10 text-center px-4 animate-fade-in-up mt-44 md:mt-52">
+      <div className="relative z-10 text-center px-4 animate-fade-in-up mt-20 md:mt-24">
         <img
-          src={logoCopa}
-          alt="Logo Copa Social de Veteranos"
-          className="w-56 h-auto md:w-72 lg:w-80 mx-auto mb-8 drop-shadow-2xl"
+          src={logoEncontrao}
+          alt="Encontrão Cultural da Melhor Idade"
+          className="w-[90%] max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto h-auto drop-shadow-2xl"
         />
-        <div className="w-20 h-1 bg-gradient-orange mx-auto mb-6 rounded-full" />
-        <p className="font-display text-2xl md:text-4xl font-semibold text-foreground uppercase tracking-wide mb-8">
-          Nosso evento foi um sucesso!
+        <p className="font-display text-3xl md:text-5xl lg:text-6xl font-bold uppercase tracking-widest text-[#7a1d1d] mt-6 drop-shadow-lg">
+          Vem aí!
+        </p>
+        <p className="font-display text-lg md:text-2xl font-semibold uppercase tracking-wide text-[#7a1d1d]/90 mt-3">
+          28 de junho · 14h · CTG Campo Mourão
         </p>
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <svg className="w-6 h-6 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-6 h-6 text-[#7a1d1d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
       </div>
