@@ -14,7 +14,7 @@ const HeroSection = () => {
         <img
           src={logoEncontrao}
           alt="Encontrão Cultural da Melhor Idade"
-          className="w-[70%] max-w-md md:max-w-xl mx-auto h-auto drop-shadow-2xl"
+          className="w-[90%] max-w-lg md:max-w-2xl mx-auto h-auto drop-shadow-2xl"
         />
       </div>
 
