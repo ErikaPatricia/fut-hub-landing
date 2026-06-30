@@ -61,7 +61,7 @@ const EncontraoSection = () => {
                 Realizado no dia 28 de junho, no CTG Campo Mourão, o Encontro Cultural da Melhor Idade reuniu mais de 2 mil pessoas em uma tarde de música, dança, integração e valorização da cultura regional. O evento contou com a participação de representantes de 26 municípios e foi marcado pela animação do público, consolidando-se como um grande sucesso.
               </p>
               <p>
-                Promovido pela Associação Fênix, com patrocínio da Itaipu Binacional e apoio da Associação Dojoas, o encontro teve apresentações da Alma Fandangueira, Banda Raça e Onda Fandangueira, celebrando o envelhecimento ativo, a convivência comunitária e as tradições culturais da região.
+                Promovido pela Associação Fênix, com patrocínio da Itaipu Binacional e apoio da Associação Dojo, o encontro teve apresentações da Alma Fandangueira, Banda Raça e Onda Fandangueira, celebrando o envelhecimento ativo, a convivência comunitária e as tradições culturais da região.
               </p>
             </div>
           </div>
