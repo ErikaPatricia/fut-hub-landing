@@ -41,10 +41,9 @@ const EncontraoSection = () => {
   return (
     <section id="encontrao" className="relative py-20 md:py-28 overflow-hidden">
       <img src={fundo} alt="" className="absolute inset-0 w-full h-full object-cover opacity-20" />
-      <div className="absolute inset-0 bg-card/85" />
 
       <div className="relative container mx-auto px-4">
-        <div className="max-w-5xl mx-auto rounded-2xl border border-border bg-background/80 backdrop-blur-sm p-6 md:p-10 shadow-xl">
+        <div className="max-w-5xl mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-10 md:mb-12">
             <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-muted-foreground mb-4">
               Itaipu Binacional apresenta
@@ -62,7 +61,7 @@ const EncontraoSection = () => {
                 Realizado no dia 28 de junho, no CTG Campo Mourão, o Encontro Cultural da Melhor Idade reuniu mais de 2 mil pessoas em uma tarde de música, dança, integração e valorização da cultura regional. O evento contou com a participação de representantes de 26 municípios e foi marcado pela animação do público, consolidando-se como um grande sucesso.
               </p>
               <p>
-                Promovido pela Associação Fênix, com patrocínio da Itaipu Binacional e apoio da Associação Dojo, o encontro teve apresentações da Alma Fandangueira, Banda Raça e Onda Fandangueira, celebrando o envelhecimento ativo, a convivência comunitária e as tradições culturais da região.
+                Promovido pela Associação Fênix, com patrocínio da Itaipu Binacional e apoio da Associação Dojoas, o encontro teve apresentações da Alma Fandangueira, Banda Raça e Onda Fandangueira, celebrando o envelhecimento ativo, a convivência comunitária e as tradições culturais da região.
               </p>
             </div>
           </div>
