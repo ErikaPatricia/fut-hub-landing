@@ -95,6 +95,7 @@ const EncontraoSection = () => {
               </div>
             </div>
           </div>
+          </div>
         </div>
       </div>
     </section>
