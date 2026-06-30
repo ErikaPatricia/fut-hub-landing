@@ -3,7 +3,7 @@ import logoEncontrao from "@/assets/logo-encontrao.png";
 
 const HeroSection = () => {
   return (
-    <section id="inicio" className="relative min-h-screen flex flex-col overflow-hidden pt-16">
+    <section id="inicio" className="relative min-h-screen flex flex-col justify-end overflow-hidden pt-16">
       <img
         src={capaEncontrao.url}
         alt="Público reunido no Encontrão Cultural da Melhor Idade no CTG Campo Mourão"
@@ -12,15 +12,12 @@ const HeroSection = () => {
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/40" />
 
-      <div className="relative z-10 container mx-auto px-4 pt-10 md:pt-14 text-center">
+      <div className="relative z-10 container mx-auto px-4 pb-20 md:pb-24 text-center">
         <img
           src={logoEncontrao}
           alt="Encontrão Cultural da Melhor Idade"
-          className="w-[220px] md:w-[280px] mx-auto drop-shadow-xl"
+          className="w-[120px] md:w-[160px] mx-auto mb-6 drop-shadow-xl"
         />
-      </div>
-
-      <div className="relative z-10 container mx-auto px-4 pb-20 md:pb-24 text-center mt-auto" style={{ paddingTop: "500px" }}>
         <div className="max-w-4xl mx-auto animate-fade-in-up">
           <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]">
             Encontrão reúne mais de 2 mil pessoas no CTG Campo Mourão
