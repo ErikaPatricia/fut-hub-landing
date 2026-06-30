@@ -16,7 +16,7 @@ const HeroSection = () => {
         <img
           src={logoEncontrao}
           alt="Encontrão Cultural da Melhor Idade"
-          className="w-[200px] md:w-[280px] mx-auto mb-[400px] drop-shadow-xl"
+          className="w-[260px] md:w-[360px] mx-auto mb-[500px] drop-shadow-xl"
         />
         <div className="max-w-4xl mx-auto animate-fade-in-up">
           <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]">
