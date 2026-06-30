@@ -41,10 +41,9 @@ const EncontraoSection = () => {
   return (
     <section id="encontrao" className="relative py-20 md:py-28 overflow-hidden">
       <img src={fundo} alt="" className="absolute inset-0 w-full h-full object-cover opacity-20" />
-      <div className="absolute inset-0 bg-card/85" />
 
       <div className="relative container mx-auto px-4">
-        <div className="max-w-5xl mx-auto rounded-2xl border border-border bg-background/80 backdrop-blur-sm p-6 md:p-10 shadow-xl">
+        <div className="max-w-5xl mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-10 md:mb-12">
             <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-muted-foreground mb-4">
               Itaipu Binacional apresenta

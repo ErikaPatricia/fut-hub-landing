@@ -1,4 +1,5 @@
 import capaEncontrao from "@/assets/encontrao/capa.jpg.asset.json";
+import logoEncontrao from "@/assets/logo-encontrao.png";
 
 const HeroSection = () => {
   return (
@@ -9,13 +10,15 @@ const HeroSection = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
 
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/25 to-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/40" />
 
-      <div className="relative z-10 container mx-auto px-4 pb-20 md:pb-24">
-        <div className="max-w-4xl animate-fade-in-up">
-          <p className="font-display text-sm md:text-base uppercase tracking-[0.28em] text-white/85 mb-4">
-            Encontrão Cultural da Melhor Idade
-          </p>
+      <div className="relative z-10 container mx-auto px-4 pb-20 md:pb-24 text-center">
+        <img
+          src={logoEncontrao}
+          alt="Encontrão Cultural da Melhor Idade"
+          className="w-[120px] md:w-[160px] mx-auto mb-6 drop-shadow-xl"
+        />
+        <div className="max-w-4xl mx-auto animate-fade-in-up">
           <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]">
             Encontrão reúne mais de 2 mil pessoas no CTG Campo Mourão
           </h1>
