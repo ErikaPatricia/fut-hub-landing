@@ -39,11 +39,11 @@ const fotosEvento = [
 
 const EncontraoSection = () => {
   return (
-    <section id="encontrao" className="relative py-20 md:py-28 overflow-hidden">
-      <img src={fundo} alt="" className="absolute inset-0 w-full h-full object-cover opacity-20" />
-
-      <div className="relative container mx-auto px-4">
-        <div className="max-w-5xl mx-auto">
+    <section id="encontrao" className="py-20 md:py-28 bg-muted/40">
+      <div className="container mx-auto px-4">
+        <div className="relative max-w-5xl mx-auto rounded-2xl border border-border bg-card shadow-sm overflow-hidden p-8 md:p-12">
+          <img src={fundo} alt="" className="absolute inset-0 w-full h-full object-cover opacity-15 pointer-events-none" />
+          <div className="relative">
           <div className="max-w-3xl mx-auto text-center mb-10 md:mb-12">
             <p className="font-display text-sm md:text-base uppercase tracking-[0.3em] text-muted-foreground mb-4">
               Itaipu Binacional apresenta
